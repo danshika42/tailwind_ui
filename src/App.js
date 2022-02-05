@@ -23,11 +23,15 @@ function App() {
         
         <div className='text-center mt-10 mb-10'>
           <h1 className='text-white sm:text-6xl text-4xl  font-bold'>The Best Way to</h1>
-          <h1 className='text-blue-300 sm:text-6xl text-4xl font-bold'>Track your Daily Progress</h1>
+
+          <h1 className='sm:text-6xl text-4xl font-bold'>
+            <span className='text-transparent  bg-clip-text bg-gradient-to-r from-[#7399fb] to-[#a5d9ff]'>Track your Daily Progress</span>
+          </h1>
+
           <div className='m-auto w-full md:w-8/12'>
             <p className='m-20 text-md text-center text-white text-opacity-70 '>UNX Allows you to track all your daily task progress using gamification methods and earn rewards for specific coupons</p>
           </div>
-          <button className='font-bold px-10 py-3 rounded-md bg-blue-800  text-white hover:bg-opacity-25' >Try this app</button>
+          <button className='font-bold px-10 py-3 rounded-md bg-blue-800  text-white hover:bg-opacity-80' >Try this app</button>
         </div>
        
         <div className='p-5'>
